@@ -1,0 +1,52 @@
+{
+    "educator": "East Grand Rapids High School",
+
+    "timezone": "America/New_York",
+
+    "periods": [
+
+        {
+            "name": "1st Hour",
+            "start": { "h": 7, "m": 40, "pm": false },
+            "end": { "h": 8, "m": 37, "pm": false }
+        },
+
+        {
+            "name": "2nd Hour",
+            "start": { "h": 8, "m": 42, "pm": false },
+            "end": { "h": 9, "m": 39, "pm": false }
+        },
+
+        {
+            "name": "3rd Hour",
+            "start": { "h": 9, "m": 44, "pm": false },
+            "end": { "h": 10, "m": 51, "pm": false }
+        },
+
+        {
+            "name": "4th Hour",
+            "start": { "h": 10, "m": 56, "pm": false },
+            "end": { "h": 11, "m": 53, "pm": false }
+        },
+
+        {
+            "name": "5th Hour",
+            "start": { "h": 11, "m": 58, "pm": false },
+            "end": { "h": 12, "m": 55, "pm": true }
+        },
+
+        {
+            "name": "6th Hour",
+            "start": { "h": 1, "m": 0, "pm": true },
+            "end": { "h": 1, "m": 57, "pm": true }
+        },
+
+        {
+            "name": "7th Hour",
+            "start": { "h": 2, "m": 2, "pm": true },
+            "end": { "h": 2, "m": 59, "pm": true }
+        }
+
+    ]
+
+}

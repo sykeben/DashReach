@@ -1,0 +1,9 @@
+.bg-darker {
+	background-color: #232229 !important;
+}
+
+input:placeholder-shown { font-style: italic; }
+input::-webkit-input-placeholder { font-style: italic; }
+input:-moz-placeholder { font-style: italic; }
+input::-moz-placeholder { font-style: italic; }
+input:-ms-input-placeholder { font-style: italic; }

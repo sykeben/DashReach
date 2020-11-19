@@ -1,0 +1,58 @@
+{
+    "educator": "Eric Widget High",
+
+    "timezone": "Fakelandia/Statesville",
+
+    "periods": [
+
+        {
+            "name": "Morning Homeroom",
+            "start": { "h": 8, "m": 0, "pm": false },
+            "end": { "h": 8, "m": 25, "pm": false }
+        },
+
+        {
+            "name": "Performing Arts",
+            "start": { "h": 8, "m": 30, "pm": false },
+            "end": { "h": 9, "m": 30, "pm": false }
+        },
+
+        {
+            "name": "Mathematics",
+            "start": { "h": 9, "m": 35, "pm": false },
+            "end": { "h": 10, "m": 35, "pm": false }
+        },
+
+        {
+            "name": "Language Arts",
+            "start": { "h": 10, "m": 40, "pm": false },
+            "end": { "h": 11, "m": 40, "pm": false }
+        },
+
+        {
+            "name": "Lunch",
+            "start": { "h": 11, "m": 45, "pm": false },
+            "end": { "h": 12, "m": 5, "pm": false }
+        },
+
+        {
+            "name": "Sciences",
+            "start": { "h": 12, "m": 10, "pm": false },
+            "end": { "h": 1, "m": 10, "pm": true }
+        },
+
+        {
+            "name": "Elective",
+            "start": { "h": 1, "m": 15, "pm": true },
+            "end": { "h": 2, "m": 15, "pm": true }
+        },
+
+        {
+            "name": "Afternoon Homeroom",
+            "start": { "h": 2, "m": 20, "pm": true },
+            "end": { "h": 2, "m": 50, "pm": true }
+        }
+
+    ]
+
+}
