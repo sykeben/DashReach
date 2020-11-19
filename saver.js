@@ -129,16 +129,16 @@ function generate() {
         json.periods[i] = periodData;
     }
 
-    // Compile component.
+    // Compile component, subase, and base.
     let component = LZString.compressToEncodedURIComponent(JSON.stringify(json));
+    let subase = (window.location.hostname == 'sykeben.github.io') ? 'DashReach/' : '';
+    let base = `${window.location.protocol}//${window.location.hostname}/${subase}`;
 
     // Compile normal URL.
-    let resultNormalURL = `${window.location.protocol}//${window.location.hostname}/?raw&source=`;
-    resultNormalURL += component;
+    let resultNormalURL = `${base}?raw&source=${component}`;
 
     // Compile embeddable URL.
-    let resultEmbeddableURL = `${window.location.protocol}//${window.location.hostname}/?embed&raw&source=`;
-    resultEmbeddableURL += component;
+    let resultEmbeddableURL = `${base}?embed&raw&source=${component}`;
 
     // Compile JSON
     let resultJSON = JSON.stringify(json, null, 2);
