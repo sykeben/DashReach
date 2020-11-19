@@ -220,6 +220,8 @@ window.onload = function() {
     }
 
     // Prepare JSON example root.
-    $('#json-example-root').text(location.protocol + '//' + location.host)
+    let subase = (window.location.hostname == 'sykeben.github.io') ? 'DashReach/' : '';
+    let base = `${window.location.protocol}//${window.location.hostname}/${subase}`;
+    $('#json-example-root').text(base);
 
 }
