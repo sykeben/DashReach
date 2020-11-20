@@ -17,18 +17,18 @@ function appendPeriod(initialName='', initialStart='', initialEnd='') {
             <input type="text" class="form-control period-name" placeholder="Period Name" value="${initialName}">
         </div>
 
-        <div class="col-3 pl-4 pr-0">
+        <div class="col-3 pl-1 pl-sm-2 pl-lg-4 pr-0">
             <input type="time" class="form-control period-start" value="${initialStart}">
         </div>
 
-        <div class="col-3 pl-4 pr-0">
+        <div class="col-3 pl-1 pl-sm-2 pl-lg-4 pr-0">
             <input type="time" class="form-control period-end" value="${initialEnd}">
         </div>
 
-        <div class="col-2 text-right">
-            <button class="font-weight-bolder btn btn-danger period-delete">&Cross;</button>
-            <button class="font-weight-bolder btn btn-primary period-move-up">&UpArrow;</button>
-            <button class="font-weight-bolder btn btn-secondary period-move-down">&DownArrow;</button>
+        <div class="col-2 pl-0 text-right">
+            <button class="font-weight-bolder btn btn-sm btn-danger period-delete">&Cross;</button>
+            <button class="font-weight-bolder btn btn-sm btn-primary period-move-up">&UpArrow;</button>
+            <button class="font-weight-bolder btn btn-sm btn-secondary period-move-down">&DownArrow;</button>
         </div>
 
     </div>`);
